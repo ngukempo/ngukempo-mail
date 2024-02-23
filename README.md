@@ -1,5 +1,5 @@
 # NGU KEMPOメール
- ドメインは「m.ngukempo.com」です
+ ドメインは「m.ngukempo.com」です<br>
 [NGU KEMPOメール](https://m.ngukempo.com)
  
 # 対象となるユーザーとID・パスワードについて
