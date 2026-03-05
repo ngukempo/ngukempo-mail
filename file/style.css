@@ -1,5 +1,5 @@
 body {
-      font-family: Arial, sans-serif;
+      font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", "Meiryo", Arial, sans-serif;
       background-color: #f4f4f4;
       margin: 0;
       padding: 0;
@@ -39,9 +39,101 @@ body {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
+    main section {
+      margin-bottom: 2em;
+      padding-bottom: 1.5em;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    main section:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+
+    main h2 {
+      font-size: 1.2em;
+      color: #333;
+      border-left: 4px solid #666;
+      padding-left: 0.6em;
+      margin-bottom: 0.8em;
+    }
+
+    .link-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .link-list li {
+      margin: 0.4em 0;
+    }
+
+    .link-list a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    .link-list a:hover {
+      text-decoration: underline;
+    }
+
+    .notice-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .notice-list li {
+      background-color: #f9f9f9;
+      border-left: 3px solid #aaa;
+      padding: 0.7em 1em;
+      margin-bottom: 0.8em;
+      line-height: 1.6;
+      border-radius: 0 4px 4px 0;
+    }
+
+    .code-block {
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 0.5em 1em;
+      font-family: monospace;
+      font-size: 1em;
+      display: inline-block;
+      margin: 0.3em 0;
+    }
+
+    code {
+      background-color: #f0f0f0;
+      padding: 0.1em 0.4em;
+      border-radius: 3px;
+      font-family: monospace;
+    }
+
+    .meta-links {
+      max-width: 800px;
+      margin: 10px auto;
+      padding: 0 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1em;
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    .meta-links a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    .meta-links a:hover {
+      text-decoration: underline;
+    }
+
     footer {
       text-align: center;
       padding: 1em;
       background-color: #333;
       color: #fff;
+      margin-top: 20px;
     }
