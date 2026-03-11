@@ -15,29 +15,84 @@
 
   <nav>
     <a href="https://webmail.migadu.com/">Webメール</a>
-    <a href="https://webmail.migadu.com/#/settings/change-password">パスワード変更ページ</a>
+    <a href="https://webmail.migadu.com/#/settings/change-password">パスワード変更</a>
     <a href="file/about_mail.pdf">メールについて</a>
   </nav>
 
   <main>
-    <section id="link1">
+    <section id="links">
       <h2>各種リンク</h2>
-      <a href="https://webmail.migadu.com/" target="_blank">メールボックス</a><br>
-      <a href="https://webmail.migadu.com/#/settings/change-password" target="_blank">パスワード変更</a><br>
-<br>
-<br>
-<br>
-<br>
-      <a href="file/about_mail.pdf" target="_blank">NGU KEMPO メールについて</a><br>
-    
+      <ul class="link-list">
+        <li><a href="https://webmail.migadu.com/" target="_blank">メールボックスを開く</a></li>
+        <li><a href="https://webmail.migadu.com/#/settings/change-password" target="_blank">パスワードを変更する</a></li>
+        <li><a href="file/about_mail.pdf" target="_blank">NGU KEMPO メールについて（PDF）</a></li>
+      </ul>
+    </section>
+
+    <section id="users">
+      <h2>対象ユーザーについて</h2>
+      <p>利用できるのは以下の学生です。</p>
+      <ul>
+        <li>在学中の学生（入部済みであること）</li>
+        <li>卒業生</li>
+      </ul>
+      <p><strong>転科した場合の注意：</strong><br>
+      在学中に転科した場合、IDは転科後の学籍番号に変わります。元の学籍番号では利用できなくなります。</p>
+      <p><strong>卒業生のIDについて：</strong><br>
+      卒業生のIDは卒業時の学籍番号です。2024年度（24生）以降の卒業生には、卒業時に利用案内を行う予定です。</p>
+    </section>
+
+    <section id="address">
+      <h2>メールアドレスについて</h2>
+      <p>メールアドレスの形式は以下のとおりです。</p>
+      <p class="code-block">学籍番号@m.ngukempo.com</p>
+      <p><strong>例：</strong> 学籍番号が <code>99X9999</code> の場合</p>
+      <p class="code-block">99x9999@m.ngukempo.com</p>
+    </section>
+
+    <section id="notes">
+      <h2>サービス利用にあたっての注意事項</h2>
+      <ul class="notice-list">
+        <li>
+          <strong>不審なメールに注意してください。</strong><br>
+          知らない送信元からのメールにはウィルスが含まれている可能性があります。添付ファイルを開いたり、本文内のリンクにアクセスしたりしないでください。
+        </li>
+        <li>
+          <strong>フィッシング詐欺に注意してください。</strong><br>
+          リンク先で住所・氏名などの個人情報を入力する際は、企業を装った偽サイトの可能性があります。十分に確認してから入力してください。
+        </li>
+        <li>
+          <strong>ID・パスワードは厳重に管理してください。</strong><br>
+          他人に教えたり、貸したりしないでください。
+        </li>
+        <li>
+          <strong>ルールとマナーを守ってください。</strong><br>
+          実生活と同様に、他人のプライバシーや著作権を侵害しないようにしてください。
+        </li>
+        <li>
+          <strong>システム不具合について：</strong><br>
+          サービス利用中に発生したシステム的な不具合には、十分に対応できない場合があります。
+        </li>
+      </ul>
+    </section>
+
+    <section id="policy">
+      <h2>プライバシーポリシー・利用規約</h2>
+      <ul class="link-list">
+        <li><a href="https://migadu.com/privacy/" target="_blank">プライバシーポリシー</a></li>
+        <li><a href="https://migadu.com/terms/" target="_blank">利用規約</a></li>
+      </ul>
     </section>
   </main>
-  <h4>Powered By:<a href="https://pages.cloudflare.com/" target="_blank">Cloudflare Pages</a></h4>
-  <h4>不具合報告:<a href="https://github.com/ngukempo/ngukempo-mail/issues" target="_blank">報告する</a></h4>
-  <h4>ソースコード:<a href="https://github.com/ngukempo/ngukempo-mail" target="_blank">GitHub</a></h4>
+
+  <div class="meta-links">
+    <span>Powered by: <a href="https://pages.cloudflare.com/" target="_blank">Cloudflare Pages</a></span>
+    <span>不具合報告: <a href="https://github.com/ngukempo/ngukempo-mail/issues" target="_blank">報告する</a></span>
+    <span>ソースコード: <a href="https://github.com/ngukempo/ngukempo-mail" target="_blank">GitHub</a></span>
+  </div>
 
   <footer>
-    <p>&copy;NGU KEMPO メール</p>
+    <p>&copy; NGU KEMPO メール</p>
   </footer>
 
 </body>
